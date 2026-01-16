@@ -20,6 +20,7 @@ def fetch_cod_data(gcis_host: str = GCIS_HOST):
     # fetch division, group
     child_list_by_section = fetch_child_codes(gcis_host, section_code_list)
     fetch_division_codes(section_code_list, child_list_by_section)
+    fetch_group_codes(section_code_list, child_list_by_section)
 
     # fetch full codes
 
@@ -86,3 +87,24 @@ def fetch_division_codes(section_code_list, child_list_by_section):
 
     # save full processed division list
     save_json_to_file(division_full_list, "data/cod/2_division_code.json")
+
+
+def fetch_group_codes(section_code_list, child_list_by_section):
+    print("\n=== Fetching Group Codes ===")
+    group_full_list = []
+    for section_code in section_code_list:
+        # extract division list
+        division_list = copy.deepcopy(
+            child_list_by_section[section_code]["codeSearchDto"]
+        )
+
+        # extract group codes from each division
+        for division_item in division_list:
+            group_list = division_item["codeSearchDto"]
+            for group_item in group_list:
+                # remove empty sub-codes
+                group_item.pop("codeSearchDto")
+                group_full_list.append(group_item)
+
+    # save full processed group list
+    save_json_to_file(group_full_list, "data/cod/3_group_code.json")
