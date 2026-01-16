@@ -20,9 +20,10 @@ def fetch_cod_data(gcis_host: str = GCIS_HOST):
     # fetch division, group
     child_list_by_section = fetch_child_codes(gcis_host, section_code_list)
     fetch_division_codes(section_code_list, child_list_by_section)
-    fetch_group_codes(section_code_list, child_list_by_section)
+    group_list_by_section = fetch_group_codes(child_list_by_section, section_code_list)
 
     # fetch full codes
+    fetch_full_codes(gcis_host, section_code_list, group_list_by_section)
 
 
 def fetch_section_codes(gcis_host):
@@ -89,9 +90,10 @@ def fetch_division_codes(section_code_list, child_list_by_section):
     save_json_to_file(division_full_list, "data/cod/2_division_code.json")
 
 
-def fetch_group_codes(section_code_list, child_list_by_section):
+def fetch_group_codes(child_list_by_section, section_code_list):
     print("\n=== Fetching Group Codes ===")
     group_full_list = []
+    group_list_by_section = {code: [] for code in section_code_list}
     for section_code in section_code_list:
         # extract division list
         division_list = copy.deepcopy(
@@ -105,6 +107,38 @@ def fetch_group_codes(section_code_list, child_list_by_section):
                 # remove empty sub-codes
                 group_item.pop("codeSearchDto")
                 group_full_list.append(group_item)
+                group_list_by_section[section_code].append(group_item["code"])
+
+        # print group codes of each section
+        print(group_list_by_section[section_code])
 
     # save full processed group list
     save_json_to_file(group_full_list, "data/cod/3_group_code.json")
+    return group_list_by_section
+
+
+def fetch_full_codes(gcis_host, section_code_list, group_list_by_section):
+    print("\n=== Fetching Full Codes ===")
+    full_code_list = []
+    full_codes_by_section = {code: [] for code in section_code_list}
+    # iterate over group codes to fetch full codes
+    for section_code in section_code_list:
+        for group_code in group_list_by_section[section_code]:
+            response = fetch_api(
+                f"{gcis_host}/elawCodAp/api/codeSearch/getAllFullCode?thiCode={group_code}"
+            )
+            for full_code in response:
+                full_codes_by_section[section_code].append(full_code)
+                full_code_list.append(full_code)
+
+        # save full codes of each section
+        save_json_to_file(
+            full_codes_by_section[section_code],
+            f"data/cod/full_code/full_code_{section_code}.json",
+        )
+        print(
+            f"Section {section_code} has {len(full_codes_by_section[section_code])} full codes"
+        )
+
+    # save full processed full code list
+    save_json_to_file(full_code_list, "data/cod/4_full_code.json")

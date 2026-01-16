@@ -1,0 +1,18 @@
+[
+  {
+    "pkCode": 1265,
+    "code": "ZZ99999",
+    "codeName": "除許可業務外，得經營法令非禁止或限制之業務",
+    "description": "除許可業務外，得經營法令非禁止或限制之業務。",
+    "codeNameE": "All business activities that are not prohibited or restricted by law, except those that are subject to special approval.",
+    "classMapping": null,
+    "classMappingE": null,
+    "permission": null,
+    "link": null,
+    "orgType": null,
+    "orgTypeE": null,
+    "descriptionE": null,
+    "updateDate": null,
+    "isStop": "F"
+  }
+]
