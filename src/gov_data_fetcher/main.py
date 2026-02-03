@@ -1,4 +1,4 @@
-from moea_gcis.scrapers.update_cod_data import fetch_cod_data
+from gov_data_fetcher.scrapers.gcis import fetch_cod_data
 
 
 def main():

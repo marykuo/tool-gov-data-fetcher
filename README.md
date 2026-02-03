@@ -1,9 +1,9 @@
-# tool-moea-gcis
+# tool-gov-data-fetcher
 
 [![python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 
-Python package for fetching and updating GCIS (MOEA) COD data via API.
+Python package for fetching and updating GOV data via API.
 
 ## Features
 
@@ -33,15 +33,15 @@ uv run ruff format
 ## Project Structure
 
 ```
-tool-moea-gcis/
+tool-gov-data-fetcher/
 ├── pyproject.toml                 # Project metadata and dependencies
 ├── uv.lock                        # uv lockfile (auto-generated)
 ├── README.md                      # Project documentation
 ├── data/                          # Output data (JSON files)
-│   └── cod/
+│   └── gcis/
 ├── docs/                          # Documentation files
 └── src/                           # Source package
-    └── moea_gcis/                 # Core logic package
+    └── gov_data_fetcher/          # Core logic package
         ├── __init__.py
         ├── main.py                # Entry point: fetch and update GCIS cod data (Wrapper)
         ├── core/                  # Utility modules

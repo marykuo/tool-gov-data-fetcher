@@ -166,7 +166,7 @@ wheels = [
 ]
 
 [[package]]
-name = "tool-moea-gcis"
+name = "tool-gov-data-fetcher"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

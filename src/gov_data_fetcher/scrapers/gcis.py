@@ -1,4 +1,4 @@
-from moea_gcis.core.utility import fetch_api, save_json_to_file
+from gov_data_fetcher.core.utility import fetch_api, save_json_to_file
 
 
 GCIS_HOST = "https://gcis.nat.gov.tw"
@@ -30,11 +30,11 @@ def fetch_section_codes(gcis_host):
     response = fetch_api(f"{gcis_host}/elawCodAp/api/codeSearch/getAllMainCode")
 
     # save raw response
-    save_json_to_file(response, "data/cod/main_code/raw_main_code.json")
+    save_json_to_file(response, "data/gcis/main_code/raw_main_code.json")
 
     # save processed section list
     section_full_list = response
-    save_json_to_file(section_full_list, "data/cod/1_section_code.json")
+    save_json_to_file(section_full_list, "data/gcis/1_section_code.json")
 
     # extract section code list
     section_code_list = [item["code"] for item in section_full_list]
@@ -52,7 +52,7 @@ def fetch_child_codes(gcis_host, section_code_list):
         )
         # save raw response
         save_json_to_file(
-            response, f"data/cod/child_code/raw_child_code_{section_code}.json"
+            response, f"data/gcis/child_code/raw_child_code_{section_code}.json"
         )
         # append to full list
         full_child_list.append(response)
@@ -63,7 +63,7 @@ def fetch_child_codes(gcis_host, section_code_list):
         )
 
     # save full raw child list
-    save_json_to_file(full_child_list, "data/cod/child_code/all_child_code.json")
+    save_json_to_file(full_child_list, "data/gcis/child_code/all_child_code.json")
     return child_list_by_section
 
 
@@ -84,7 +84,7 @@ def fetch_division_codes(section_code_list, child_list_by_section):
         print([item["code"] for item in division_list])
 
     # save full processed division list
-    save_json_to_file(division_full_list, "data/cod/2_division_code.json")
+    save_json_to_file(division_full_list, "data/gcis/2_division_code.json")
 
 
 def fetch_group_codes(child_list_by_section, section_code_list):
@@ -108,7 +108,7 @@ def fetch_group_codes(child_list_by_section, section_code_list):
         print(group_list_by_section[section_code])
 
     # save full processed group list
-    save_json_to_file(group_full_list, "data/cod/3_group_code.json")
+    save_json_to_file(group_full_list, "data/gcis/3_group_code.json")
     return group_list_by_section
 
 
@@ -129,11 +129,11 @@ def fetch_full_codes(gcis_host, section_code_list, group_list_by_section):
         # save full codes of each section
         save_json_to_file(
             full_codes_by_section[section_code],
-            f"data/cod/full_code/full_code_{section_code}.json",
+            f"data/gcis/full_code/full_code_{section_code}.json",
         )
         print(
             f"Section {section_code} has {len(full_codes_by_section[section_code])} full codes"
         )
 
     # save full processed full code list
-    save_json_to_file(full_code_list, "data/cod/4_full_code.json")
+    save_json_to_file(full_code_list, "data/gcis/4_full_code.json")
