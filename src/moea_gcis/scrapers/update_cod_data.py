@@ -1,4 +1,3 @@
-import copy
 from moea_gcis.core.utility import fetch_api, save_json_to_file
 
 
@@ -73,15 +72,13 @@ def fetch_division_codes(section_code_list, child_list_by_section):
     division_full_list = []
     for section_code in section_code_list:
         # extract division list
-        division_list = copy.deepcopy(
-            child_list_by_section[section_code]["codeSearchDto"]
-        )
+        division_list = child_list_by_section[section_code]["codeSearchDto"]
 
         # clean up division items
         for division_item in division_list:
-            # remove group codes
-            division_item.pop("codeSearchDto")
-            division_full_list.append(division_item)
+            # create new item without empty sub-codes
+            new_item = {k: v for k, v in division_item.items() if k != "codeSearchDto"}
+            division_full_list.append(new_item)
 
         # print division codes
         print([item["code"] for item in division_list])
@@ -96,18 +93,16 @@ def fetch_group_codes(child_list_by_section, section_code_list):
     group_list_by_section = {code: [] for code in section_code_list}
     for section_code in section_code_list:
         # extract division list
-        division_list = copy.deepcopy(
-            child_list_by_section[section_code]["codeSearchDto"]
-        )
+        division_list = child_list_by_section[section_code]["codeSearchDto"]
 
         # extract group codes from each division
         for division_item in division_list:
             group_list = division_item["codeSearchDto"]
             for group_item in group_list:
-                # remove empty sub-codes
-                group_item.pop("codeSearchDto")
-                group_full_list.append(group_item)
-                group_list_by_section[section_code].append(group_item["code"])
+                # create new item without empty sub-codes
+                new_item = {k: v for k, v in group_item.items() if k != "codeSearchDto"}
+                group_full_list.append(new_item)
+                group_list_by_section[section_code].append(new_item["code"])
 
         # print group codes of each section
         print(group_list_by_section[section_code])
