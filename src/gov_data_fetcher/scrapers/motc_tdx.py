@@ -209,6 +209,7 @@ def fetch_motc_tdx_rail_metro_station_time_table(
         print(
             f"Fetched {len(response)} station time table entries for rail system {rail_system}, line {line}"
         )
+        response = clean_station_time_table(response)
         if len(response) > 0:
             save_json_to_file(
                 response,
@@ -221,3 +222,17 @@ def fetch_motc_tdx_rail_metro_station_time_table(
             f"Fetching station time table for rail system {rail_system}, line {line} failed: {e}"
         )
         return []
+
+
+def clean_station_time_table(route_list) -> list:
+    """Clean the station time table data by removing unnecessary fields."""
+    for route in route_list:
+        # replace the Timetables list of dicts with a list of DepartureTime strings
+        route["Timetables"] = [item["DepartureTime"] for item in route["Timetables"]]
+
+        # add a new field "ServiceTag" copy from "ServiceDay.ServiceTag"
+        if "ServiceDay" in route and "ServiceTag" in route["ServiceDay"]:
+            route["ServiceTag"] = route["ServiceDay"]["ServiceTag"]
+        else:
+            route["ServiceTag"] = None
+    return route_list
