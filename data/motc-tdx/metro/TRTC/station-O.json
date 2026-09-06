@@ -1,0 +1,626 @@
+[
+  {
+    "StationUID": "TRTC-O01",
+    "StationID": "O01",
+    "StationName": {
+      "Zh_tw": "南勢角",
+      "En": "Nanshijiao",
+      "Ja": "南勢角",
+      "Ko": "난스자오"
+    },
+    "StationAddress": "235050新北市中和區捷運路6號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.509237,
+      "PositionLat": 24.990065,
+      "GeoHash": "wsqqjj23d"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "中和區",
+    "LocationTownCode": "65000030",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O02",
+    "StationID": "O02",
+    "StationName": {
+      "Zh_tw": "景安",
+      "En": "Jingan",
+      "Ja": "景安",
+      "Ko": "징안"
+    },
+    "StationAddress": "23582新北市中和區景平路486號",
+    "BikeAllowOnHoliday": false,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.505114,
+      "PositionLat": 24.99392,
+      "GeoHash": "wsqqhyj24"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "中和區",
+    "LocationTownCode": "65000030",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O03",
+    "StationID": "O03",
+    "StationName": {
+      "Zh_tw": "永安市場",
+      "En": "Yongan Market",
+      "Ja": "永安市場",
+      "Ko": "융안 시장"
+    },
+    "StationAddress": "235066新北市中和區中和路388號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.511225,
+      "PositionLat": 25.002895,
+      "GeoHash": "wsqqjp9u2"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "永和區",
+    "LocationTownCode": "65000040",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O04",
+    "StationID": "O04",
+    "StationName": {
+      "Zh_tw": "頂溪",
+      "En": "Dingxi",
+      "Ja": "頂渓",
+      "Ko": "딩시"
+    },
+    "StationAddress": "234016新北市永和區永和路2段168號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.515398,
+      "PositionLat": 25.01308,
+      "GeoHash": "wsqqm1kzc"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "永和區",
+    "LocationTownCode": "65000040",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O05",
+    "StationID": "O05",
+    "StationName": {
+      "Zh_tw": "古亭",
+      "En": "Guting",
+      "Ja": "古亭",
+      "Ko": "구팅"
+    },
+    "StationAddress": "100032臺北市中正區羅斯福路2段164之1號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.522868,
+      "PositionLat": 25.026373,
+      "GeoHash": "wsqqm7fm0"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中正區",
+    "LocationTownCode": "63000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O06",
+    "StationID": "O06",
+    "StationName": {
+      "Zh_tw": "東門",
+      "En": "Dongmen",
+      "Ja": "東門",
+      "Ko": "둥먼"
+    },
+    "StationAddress": "10650臺北市大安區信義路2段166號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.528766,
+      "PositionLat": 25.033894,
+      "GeoHash": "wsqqmmq91"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "大安區",
+    "LocationTownCode": "63000030",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O07",
+    "StationID": "O07",
+    "StationName": {
+      "Zh_tw": "忠孝新生",
+      "En": "Zhongxiao Xinsheng",
+      "Ja": "忠孝新生",
+      "Ko": "중샤오 신성"
+    },
+    "StationAddress": "106083臺北市大安區新生南路1段67號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.532856,
+      "PositionLat": 25.041797,
+      "GeoHash": "wsqqmw9x0"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "大安區",
+    "LocationTownCode": "63000030",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O08",
+    "StationID": "O08",
+    "StationName": {
+      "Zh_tw": "松江南京",
+      "En": "Songjiang Nanjing",
+      "Ja": "松江南京",
+      "Ko": "송장 난징"
+    },
+    "StationAddress": "104092臺北市中山區松江路126號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.53285,
+      "PositionLat": 25.052693,
+      "GeoHash": "wsqqt89w8"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中山區",
+    "LocationTownCode": "63000040",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O09",
+    "StationID": "O09",
+    "StationName": {
+      "Zh_tw": "行天宮",
+      "En": "Xingtian Temple",
+      "Ja": "行天宮",
+      "Ko": "싱톈궁"
+    },
+    "StationAddress": "104023臺北市中山區松江路316號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.53315,
+      "PositionLat": 25.05924,
+      "GeoHash": "wsqqt9csx"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中山區",
+    "LocationTownCode": "63000040",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O10",
+    "StationID": "O10",
+    "StationName": {
+      "Zh_tw": "中山國小",
+      "En": "Zhongshan Elementary School",
+      "Ja": "中山小学校",
+      "Ko": "중산 초등학교"
+    },
+    "StationAddress": "104028臺北市中山區民權東路1段71號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.526609,
+      "PositionLat": 25.062665,
+      "GeoHash": "wsqqt6sbx"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中山區",
+    "LocationTownCode": "63000040",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O11",
+    "StationID": "O11",
+    "StationName": {
+      "Zh_tw": "民權西路",
+      "En": "Minquan W. Rd.",
+      "Ja": "民権西路",
+      "Ko": "민취안시루"
+    },
+    "StationAddress": "103045臺北市大同區民權西路72號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.519585,
+      "PositionLat": 25.06235,
+      "GeoHash": "wsqqt4ryg"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中山區",
+    "LocationTownCode": "63000040",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O12",
+    "StationID": "O12",
+    "StationName": {
+      "Zh_tw": "大橋頭",
+      "En": "Daqiaotou",
+      "Ja": "大橋頭",
+      "Ko": "다차오터우"
+    },
+    "StationAddress": "103041臺北市大同區民權西路223號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.513003,
+      "PositionLat": 25.06322,
+      "GeoHash": "wsqqt4e5f"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "大同區",
+    "LocationTownCode": "63000060",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O13",
+    "StationID": "O13",
+    "StationName": {
+      "Zh_tw": "台北橋",
+      "En": "Taipei Bridge",
+      "Ja": "台北橋",
+      "Ko": "타이베이 대교"
+    },
+    "StationAddress": "241454新北市三重區重新路1段108號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.500575,
+      "PositionLat": 25.063075,
+      "GeoHash": "wsqqsfd4b"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "三重區",
+    "LocationTownCode": "65000020",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O14",
+    "StationID": "O14",
+    "StationName": {
+      "Zh_tw": "菜寮",
+      "En": "Cailiao",
+      "Ja": "菜寮",
+      "Ko": "차이랴오"
+    },
+    "StationAddress": "241007新北市三重區重新路3段150號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.491451,
+      "PositionLat": 25.059808,
+      "GeoHash": "wsqqs9grg"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "三重區",
+    "LocationTownCode": "65000020",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O15",
+    "StationID": "O15",
+    "StationName": {
+      "Zh_tw": "三重",
+      "En": "Sanchong",
+      "Ja": "三重",
+      "Ko": "싼충"
+    },
+    "StationAddress": "241012新北市三重區捷運路36號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.48422,
+      "PositionLat": 25.05571,
+      "GeoHash": "wsqqs3q05"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "三重區",
+    "LocationTownCode": "65000020",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O16",
+    "StationID": "O16",
+    "StationName": {
+      "Zh_tw": "先嗇宮",
+      "En": "Xianse Temple",
+      "Ja": "先嗇宮",
+      "Ko": "셴써궁"
+    },
+    "StationAddress": "241017新北市三重區重新路5段515號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.47165,
+      "PositionLat": 25.04632,
+      "GeoHash": "wsqqkpscq"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "三重區",
+    "LocationTownCode": "65000020",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O17",
+    "StationID": "O17",
+    "StationName": {
+      "Zh_tw": "頭前庄",
+      "En": "Touqianzhuang",
+      "Ja": "頭前庄",
+      "Ko": "터우첸좡"
+    },
+    "StationAddress": "24251新北市新莊區思源路18號B1",
+    "BikeAllowOnHoliday": false,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.460479,
+      "PositionLat": 25.039862,
+      "GeoHash": "wsqq7ykgf"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新莊區",
+    "LocationTownCode": "65000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O18",
+    "StationID": "O18",
+    "StationName": {
+      "Zh_tw": "新莊",
+      "En": "Xinzhuang",
+      "Ja": "新荘",
+      "Ko": "신좡"
+    },
+    "StationAddress": "242008新北市新莊區中正路138號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.45218,
+      "PositionLat": 25.03608,
+      "GeoHash": "wsqq7twv8"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新莊區",
+    "LocationTownCode": "65000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O19",
+    "StationID": "O19",
+    "StationName": {
+      "Zh_tw": "輔大",
+      "En": "Fu Jen University",
+      "Ja": "輔仁大学",
+      "Ko": "푸런 대학교"
+    },
+    "StationAddress": "242062新北市新莊區中正路510之1號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.435735,
+      "PositionLat": 25.03279,
+      "GeoHash": "wsqq7m4f9"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新莊區",
+    "LocationTownCode": "65000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O20",
+    "StationID": "O20",
+    "StationName": {
+      "Zh_tw": "丹鳳",
+      "En": "Danfeng",
+      "Ja": "丹鳳",
+      "Ko": "단펑"
+    },
+    "StationAddress": "242048新北市新莊區中正路624之1號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.422422,
+      "PositionLat": 25.029073,
+      "GeoHash": "wsqq7h3hg"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新莊區",
+    "LocationTownCode": "65000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O21",
+    "StationID": "O21",
+    "StationName": {
+      "Zh_tw": "迴龍",
+      "En": "Huilong",
+      "Ja": "迴龍",
+      "Ko": "후이룽"
+    },
+    "StationAddress": "242052新北市新莊區中正路758號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.411757,
+      "PositionLat": 25.022107,
+      "GeoHash": "wsqq6g1k6"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新莊區",
+    "LocationTownCode": "65000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O50",
+    "StationID": "O50",
+    "StationName": {
+      "Zh_tw": "三重國小",
+      "En": "Sanchong Elementary School",
+      "Ja": "三重小学校",
+      "Ko": "싼충 초등학교"
+    },
+    "StationAddress": "241054新北市三重區三和路3段5號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.49701,
+      "PositionLat": 25.070275,
+      "GeoHash": "wsqqsezkv"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "三重區",
+    "LocationTownCode": "65000020",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O51",
+    "StationID": "O51",
+    "StationName": {
+      "Zh_tw": "三和國中",
+      "En": "Sanhe Junior High School",
+      "Ja": "三和中学校",
+      "Ko": "싼허 중학교"
+    },
+    "StationAddress": "241080新北市三重區三和路4段107號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.486455,
+      "PositionLat": 25.076794,
+      "GeoHash": "wsqqsmpdz"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "三重區",
+    "LocationTownCode": "65000020",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O52",
+    "StationID": "O52",
+    "StationName": {
+      "Zh_tw": "徐匯中學",
+      "En": "St.lgnatius High School",
+      "Ja": "徐匯高校",
+      "Ko": "쉬후이 고등학교"
+    },
+    "StationAddress": "247019新北市蘆洲區中山一路3號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.479945,
+      "PositionLat": 25.080485,
+      "GeoHash": "wsqqsmfbr"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "蘆洲區",
+    "LocationTownCode": "65000140",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O53",
+    "StationID": "O53",
+    "StationName": {
+      "Zh_tw": "三民高中",
+      "En": "Sanmin Senior High School",
+      "Ja": "三民高校",
+      "Ko": "싼민 고등학교"
+    },
+    "StationAddress": "247010新北市蘆洲區三民路105號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.473365,
+      "PositionLat": 25.085425,
+      "GeoHash": "wsqqsnwjn"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "蘆洲區",
+    "LocationTownCode": "65000140",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-O54",
+    "StationID": "O54",
+    "StationName": {
+      "Zh_tw": "蘆洲",
+      "En": "Luzhou",
+      "Ja": "蘆洲",
+      "Ko": "루저우"
+    },
+    "StationAddress": "247011新北市蘆洲區三民路386號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.46471,
+      "PositionLat": 25.09152,
+      "GeoHash": "wsqqezzbs"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "蘆洲區",
+    "LocationTownCode": "65000140",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  }
+]

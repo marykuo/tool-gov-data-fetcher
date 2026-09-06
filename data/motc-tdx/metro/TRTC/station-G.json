@@ -1,0 +1,482 @@
+[
+  {
+    "StationUID": "TRTC-G01",
+    "StationID": "G01",
+    "StationName": {
+      "Zh_tw": "新店",
+      "En": "Xindian",
+      "Ja": "新店",
+      "Ko": "신뎬"
+    },
+    "StationAddress": "231039新北市新店區北宜路1段2號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.5377,
+      "PositionLat": 24.958181,
+      "GeoHash": "wsqmvxmpc"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新店區",
+    "LocationTownCode": "65000060",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G02",
+    "StationID": "G02",
+    "StationName": {
+      "Zh_tw": "新店區公所",
+      "En": "Xindian District Office",
+      "Ja": "新店区役所",
+      "Ko": "신뎬 구청"
+    },
+    "StationAddress": "231634新北市新店區北新路1段295號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.5413,
+      "PositionLat": 24.96744,
+      "GeoHash": "wsqqj9ptv"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新店區",
+    "LocationTownCode": "65000060",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G03",
+    "StationID": "G03",
+    "StationName": {
+      "Zh_tw": "七張",
+      "En": "Qizhang",
+      "Ja": "七張",
+      "Ko": "치장"
+    },
+    "StationAddress": "231007新北市新店區北新路2段150號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.543129,
+      "PositionLat": 24.975036,
+      "GeoHash": "wsqqjf940"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新店區",
+    "LocationTownCode": "65000060",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G03A",
+    "StationID": "G03A",
+    "StationName": {
+      "Zh_tw": "小碧潭",
+      "En": "Xiaobitan",
+      "Ja": "小碧潭",
+      "Ko": "샤오비탄"
+    },
+    "StationAddress": "231222新北市新店區中央路151號4樓",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.53058,
+      "PositionLat": 24.97188,
+      "GeoHash": "wsqqj3zze"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新店區",
+    "LocationTownCode": "65000060",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G04",
+    "StationID": "G04",
+    "StationName": {
+      "Zh_tw": "大坪林",
+      "En": "Dapinglin",
+      "Ja": "大坪林",
+      "Ko": "다핑린"
+    },
+    "StationAddress": "23143新北市新店區北新路3段190號",
+    "BikeAllowOnHoliday": false,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.54134,
+      "PositionLat": 24.98272,
+      "GeoHash": "wsqqjezwy"
+    },
+    "LocationCity": "新北市",
+    "LocationCityCode": "NWT",
+    "LocationTown": "新店區",
+    "LocationTownCode": "65000060",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G05",
+    "StationID": "G05",
+    "StationName": {
+      "Zh_tw": "景美",
+      "En": "Jingmei",
+      "Ja": "景美",
+      "Ko": "징메이"
+    },
+    "StationAddress": "116056臺北市文山區羅斯福路6段216號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.540697,
+      "PositionLat": 24.992824,
+      "GeoHash": "wsqqjtz1z"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "文山區",
+    "LocationTownCode": "63000080",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G06",
+    "StationID": "G06",
+    "StationName": {
+      "Zh_tw": "萬隆",
+      "En": "Wanlong",
+      "Ja": "万隆",
+      "Ko": "완룽"
+    },
+    "StationAddress": "116060臺北市文山區羅斯福路5段214號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.539008,
+      "PositionLat": 25.001978,
+      "GeoHash": "wsqqjxqp0"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "文山區",
+    "LocationTownCode": "63000080",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G07",
+    "StationID": "G07",
+    "StationName": {
+      "Zh_tw": "公館",
+      "En": "Gongguan",
+      "Ja": "公館",
+      "Ko": "궁관"
+    },
+    "StationAddress": "100046臺北市中正區羅斯福路4段64之1號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.534358,
+      "PositionLat": 25.014781,
+      "GeoHash": "wsqqm9f9e"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "大安區",
+    "LocationTownCode": "63000030",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G08",
+    "StationID": "G08",
+    "StationName": {
+      "Zh_tw": "台電大樓",
+      "En": "Taipower Building",
+      "Ja": "台湾電力ビル",
+      "Ko": "대만 전력공사 빌딩"
+    },
+    "StationAddress": "100043臺北市中正區羅斯福路3段126之5號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.528143,
+      "PositionLat": 25.020733,
+      "GeoHash": "wsqqm6yh6"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "大安區",
+    "LocationTownCode": "63000030",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G09",
+    "StationID": "G09",
+    "StationName": {
+      "Zh_tw": "古亭",
+      "En": "Guting",
+      "Ja": "古亭",
+      "Ko": "구팅"
+    },
+    "StationAddress": "100032臺北市中正區羅斯福路2段164之1號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.522868,
+      "PositionLat": 25.026373,
+      "GeoHash": "wsqqm7fm0"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中正區",
+    "LocationTownCode": "63000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G10",
+    "StationID": "G10",
+    "StationName": {
+      "Zh_tw": "中正紀念堂",
+      "En": "Chiang Kai-Shek Memorial Hall",
+      "Ja": "中正紀念堂",
+      "Ko": "중정 기념당"
+    },
+    "StationAddress": "100207臺北市中正區羅斯福路1段8之1號B1?",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.518273,
+      "PositionLat": 25.032767,
+      "GeoHash": "wsqqmjnfk"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中正區",
+    "LocationTownCode": "63000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G11",
+    "StationID": "G11",
+    "StationName": {
+      "Zh_tw": "小南門",
+      "En": "Xiaonanmen",
+      "Ja": "小南門",
+      "Ko": "샤오난먼"
+    },
+    "StationAddress": "100057臺北市中正區愛國西路22號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.510798,
+      "PositionLat": 25.035619,
+      "GeoHash": "wsqqmj97n"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中正區",
+    "LocationTownCode": "63000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G12",
+    "StationID": "G12",
+    "StationName": {
+      "Zh_tw": "西門",
+      "En": "Ximen",
+      "Ja": "西門",
+      "Ko": "시먼"
+    },
+    "StationAddress": "100005臺北市中正區寶慶路32之1號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.508511,
+      "PositionLat": 25.042274,
+      "GeoHash": "wsqqkyzcc"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中正區",
+    "LocationTownCode": "63000050",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G13",
+    "StationID": "G13",
+    "StationName": {
+      "Zh_tw": "北門",
+      "En": "Beimen",
+      "Ja": "北門",
+      "Ko": "베이먼"
+    },
+    "StationAddress": "103005臺北市大同區塔城街10號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.510184,
+      "PositionLat": 25.049554,
+      "GeoHash": "wsqqt01h0"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "大同區",
+    "LocationTownCode": "63000060",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G14",
+    "StationID": "G14",
+    "StationName": {
+      "Zh_tw": "中山",
+      "En": "Zhongshan",
+      "Ja": "中山",
+      "Ko": "중산"
+    },
+    "StationAddress": "103022臺北市大同區南京西路55號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.520364,
+      "PositionLat": 25.052621,
+      "GeoHash": "wsqqt28qj"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中山區",
+    "LocationTownCode": "63000040",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G15",
+    "StationID": "G15",
+    "StationName": {
+      "Zh_tw": "松江南京",
+      "En": "Songjiang Nanjing",
+      "Ja": "松江南京",
+      "Ko": "송장 난징"
+    },
+    "StationAddress": "104092臺北市中山區松江路126號B1",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.53285,
+      "PositionLat": 25.052693,
+      "GeoHash": "wsqqt89w8"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "中山區",
+    "LocationTownCode": "63000040",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G16",
+    "StationID": "G16",
+    "StationName": {
+      "Zh_tw": "南京復興",
+      "En": "Nanjing Fuxing",
+      "Ja": "南京復興",
+      "Ko": "난징 푸싱"
+    },
+    "StationAddress": "105020臺北市松山區南京東路3段253號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.544303,
+      "PositionLat": 25.052044,
+      "GeoHash": "wsqqtb9fe"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "松山區",
+    "LocationTownCode": "63000010",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G17",
+    "StationID": "G17",
+    "StationName": {
+      "Zh_tw": "台北小巨蛋",
+      "En": "Taipei Arena",
+      "Ja": "台北アリーナ",
+      "Ko": "타이베이 아레나"
+    },
+    "StationAddress": "105037臺北市松山區南京東路4段10之1號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.552549,
+      "PositionLat": 25.05152,
+      "GeoHash": "wsqqtbrze"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "松山區",
+    "LocationTownCode": "63000010",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G18",
+    "StationID": "G18",
+    "StationName": {
+      "Zh_tw": "南京三民",
+      "En": "Nanjing Sanmin",
+      "Ja": "南京三民",
+      "Ko": "난징 싼민"
+    },
+    "StationAddress": "105062臺北市松山區南京東路5段237號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.56471,
+      "PositionLat": 25.051588,
+      "GeoHash": "wsqqw288p"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "松山區",
+    "LocationTownCode": "63000010",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  },
+  {
+    "StationUID": "TRTC-G19",
+    "StationID": "G19",
+    "StationName": {
+      "Zh_tw": "松山",
+      "En": "Songshan",
+      "Ja": "松山",
+      "Ko": "송산"
+    },
+    "StationAddress": "105057臺北市松山區八德路4段742號",
+    "BikeAllowOnHoliday": true,
+    "SrcUpdateTime": "2023-10-12T00:00:00+08:00",
+    "StationPosition": {
+      "PositionLon": 121.577706,
+      "PositionLat": 25.050118,
+      "GeoHash": "wsqqw84pt"
+    },
+    "LocationCity": "臺北市",
+    "LocationCityCode": "TPE",
+    "LocationTown": "松山區",
+    "LocationTownCode": "63000010",
+    "UpdateTime": "2023-10-17T00:00:00+08:00",
+    "VersionID": 6
+  }
+]

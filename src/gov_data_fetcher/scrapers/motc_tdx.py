@@ -63,7 +63,7 @@ def get_motc_tdx_access_token(host: str = MOTC_TDX_HOST) -> str:
         raise ValueError("TDX token response did not contain access_token")
     print(
         f"Obtained TDX access token: {token[:10]}..., expires in {json.get('expires_in')} seconds"
-    )
+    )  # Print first 10 chars for debugging
     return token
 
 
@@ -78,7 +78,20 @@ def fetch_motc_tdx_rail_metro_data(
         rail_system=rail_system,
     )
     line_no_list = [line["LineNo"] for line in response]
-    print(f"lines: {line_no_list}")
+
+    # fetch rail station data for each line
+    station_list = []
+    for line_no in line_no_list:
+        response = fetch_motc_tdx_rail_metro_station_data(
+            access_token=access_token,
+            rail_system=rail_system,
+            line=line_no,
+        )
+        station_list.extend(response)
+        if len(line_no_list) > 1:
+            save_json_to_file(
+                response, DATA_DIR / "metro" / rail_system / "stations.json"
+            )
 
 
 def fetch_motc_tdx_rail_metro_line_data(
@@ -111,4 +124,42 @@ def fetch_motc_tdx_rail_metro_line_data(
         return response
     except Exception as e:
         print(f"Fetching lines for rail system {rail_system} failed: {e}")
+        return []
+
+
+def fetch_motc_tdx_rail_metro_station_data(
+    access_token: str,
+    rail_system: str,
+    line: str,
+    top: int = 50,
+    skip: int = 0,
+    format: str = "JSON",
+) -> dict:
+    """Fetch and save Metro station data for one TDX rail system."""
+    try:
+        response = fetch_api(
+            f"{MOTC_TDX_HOST}/api/basic/v2/Rail/Metro/Station/{rail_system}",
+            method="GET",
+            params={
+                # "$select": "StationUID,StationID,StationName,SrcUpdateTime",
+                "$filter": f"startswith(StationID,'{line}')",
+                "$orderby": "StationID",
+                "$top": top,
+                "$skip": skip,
+                "$format": format,
+            },
+            headers={"Authorization": f"Bearer {access_token}"},
+        )
+        print(
+            f"Fetched {len(response)} stations for rail system {rail_system}, line {line}"
+        )
+        save_json_to_file(
+            response, DATA_DIR / "metro" / rail_system / f"station-{line}.json"
+        )
+        time.sleep(1)
+        return response
+    except Exception as e:
+        print(
+            f"Fetching stations for rail system {rail_system}, line {line} failed: {e}"
+        )
         return []
