@@ -15,6 +15,9 @@ CLIENT_SECRET = os.getenv("MOTC_TDX_CLIENT_SECRET")
 
 MOTC_TDX_HOST = "https://tdx.transportdata.tw"
 
+# free member: 5 requests per minute
+REQUEST_INTERVAL_IN_SECONDS = 15
+
 DATA_DIR = Path("data/motc-tdx")
 
 # 欲查詢軌道系統
@@ -135,7 +138,7 @@ def fetch_motc_tdx_rail_metro_line_data(
             f"Rail system {rail_system} has {len(response)} lines: {[line['LineNo'] for line in response]}"
         )
         save_json_to_file(response, DATA_DIR / "metro" / rail_system / "lines.json")
-        time.sleep(1)
+        time.sleep(REQUEST_INTERVAL_IN_SECONDS)
         return response
     except Exception as e:
         print(f"Fetching lines for rail system {rail_system} failed: {e}")
@@ -171,7 +174,7 @@ def fetch_motc_tdx_rail_metro_station_data(
         save_json_to_file(
             response, DATA_DIR / "metro" / rail_system / f"station-{line}.json"
         )
-        time.sleep(1)
+        time.sleep(REQUEST_INTERVAL_IN_SECONDS)
         return response
     except Exception as e:
         print(
@@ -211,7 +214,7 @@ def fetch_motc_tdx_rail_metro_station_time_table(
                 response,
                 DATA_DIR / "metro" / rail_system / f"station-time-table-{line}.json",
             )
-        time.sleep(1)
+        time.sleep(REQUEST_INTERVAL_IN_SECONDS)
         return response
     except Exception as e:
         print(
