@@ -187,7 +187,7 @@ def fetch_motc_tdx_rail_metro_station_time_table(
     access_token: str,
     rail_system: str,
     line: str,
-    top: int = 60,
+    top: int = 200,
     skip: int = 0,
     format: str = "JSON",
 ) -> dict:
