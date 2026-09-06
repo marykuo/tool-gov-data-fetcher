@@ -90,11 +90,11 @@ def fetch_motc_tdx_rail_metro_data(
             rail_system=rail_system,
             line=line_no,
         )
-        station_list.extend(response)
-        if len(line_no_list) > 1:
-            save_json_to_file(
-                response, DATA_DIR / "metro" / rail_system / "stations.json"
-            )
+        station_list.append(response)
+    if len(line_no_list) > 1 and len(station_list) > 1:
+        save_json_to_file(
+            station_list, DATA_DIR / "metro" / rail_system / "stations.json"
+        )
 
     # fetch rail station data for each line
     station_time_table_list = []
@@ -104,12 +104,12 @@ def fetch_motc_tdx_rail_metro_data(
             rail_system=rail_system,
             line=line_no,
         )
-        station_time_table_list.extend(response)
-        if len(line_no_list) > 1:
-            save_json_to_file(
-                response,
-                DATA_DIR / "metro" / rail_system / f"station-time-tables.json",
-            )
+        station_time_table_list.append(response)
+    if len(line_no_list) > 1 and len(station_time_table_list) > 1:
+        save_json_to_file(
+            station_time_table_list,
+            DATA_DIR / "metro" / rail_system / f"station-time-tables.json",
+        )
 
 
 def fetch_motc_tdx_rail_metro_line_data(

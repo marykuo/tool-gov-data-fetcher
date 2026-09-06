@@ -18,8 +18,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "新興區",
     "LocationTownCode": "64000060",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R11",
@@ -40,8 +40,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "三民區",
     "LocationTownCode": "64000050",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R12",
@@ -62,8 +62,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "三民區",
     "LocationTownCode": "64000050",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R13",
@@ -84,8 +84,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "左營區",
     "LocationTownCode": "64000030",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R14",
@@ -106,8 +106,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "左營區",
     "LocationTownCode": "64000030",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R15",
@@ -128,8 +128,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "左營區",
     "LocationTownCode": "64000030",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R16",
@@ -150,8 +150,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "左營區",
     "LocationTownCode": "64000030",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R17",
@@ -172,8 +172,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "楠梓區",
     "LocationTownCode": "64000040",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R18",
@@ -194,8 +194,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "楠梓區",
     "LocationTownCode": "64000040",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R19",
@@ -216,8 +216,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "楠梓區",
     "LocationTownCode": "64000040",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R20",
@@ -238,8 +238,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "楠梓區",
     "LocationTownCode": "64000040",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R21",
@@ -260,8 +260,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "楠梓區",
     "LocationTownCode": "64000040",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R22",
@@ -282,8 +282,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "橋頭區",
     "LocationTownCode": "64000200",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R22A",
@@ -304,8 +304,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "橋頭區",
     "LocationTownCode": "64000200",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R23",
@@ -326,8 +326,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "橋頭區",
     "LocationTownCode": "64000200",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R24",
@@ -348,8 +348,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "岡山區",
     "LocationTownCode": "64000190",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R3",
@@ -370,8 +370,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "小港區",
     "LocationTownCode": "64000110",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R4",
@@ -392,8 +392,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "小港區",
     "LocationTownCode": "64000110",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R4A",
@@ -414,8 +414,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "前鎮區",
     "LocationTownCode": "64000090",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R5",
@@ -436,8 +436,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "前鎮區",
     "LocationTownCode": "64000090",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R6",
@@ -458,8 +458,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "前鎮區",
     "LocationTownCode": "64000090",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R7",
@@ -480,8 +480,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "前鎮區",
     "LocationTownCode": "64000090",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R8",
@@ -502,8 +502,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "苓雅區",
     "LocationTownCode": "64000080",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-R9",
@@ -524,8 +524,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "新興區",
     "LocationTownCode": "64000060",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-RK1",
@@ -546,7 +546,7 @@
     "LocationCityCode": "KHH",
     "LocationTown": "岡山區",
     "LocationTownCode": "64000190",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   }
 ]

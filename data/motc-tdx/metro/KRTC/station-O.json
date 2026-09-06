@@ -18,8 +18,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "鼓山區",
     "LocationTownCode": "64000020",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O10",
@@ -40,8 +40,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "苓雅區",
     "LocationTownCode": "64000080",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O11",
@@ -62,8 +62,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "鳳山區",
     "LocationTownCode": "64000120",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O12",
@@ -84,8 +84,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "鳳山區",
     "LocationTownCode": "64000120",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O13",
@@ -106,8 +106,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "鳳山區",
     "LocationTownCode": "64000120",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O14",
@@ -128,8 +128,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "鳳山區",
     "LocationTownCode": "64000120",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O2",
@@ -150,8 +150,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "鹽埕區",
     "LocationTownCode": "64000010",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O4",
@@ -172,8 +172,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "前金區",
     "LocationTownCode": "64000070",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O5",
@@ -194,8 +194,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "新興區",
     "LocationTownCode": "64000060",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O6",
@@ -216,8 +216,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "新興區",
     "LocationTownCode": "64000060",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O7",
@@ -238,8 +238,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "苓雅區",
     "LocationTownCode": "64000080",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O8",
@@ -260,8 +260,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "苓雅區",
     "LocationTownCode": "64000080",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-O9",
@@ -282,8 +282,8 @@
     "LocationCityCode": "KHH",
     "LocationTown": "苓雅區",
     "LocationTownCode": "64000080",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   },
   {
     "StationUID": "KRTC-OT1",
@@ -304,7 +304,7 @@
     "LocationCityCode": "KHH",
     "LocationTown": "大寮區",
     "LocationTownCode": "64000140",
-    "UpdateTime": "2026-09-06T10:34:39+08:00",
-    "VersionID": 955
+    "UpdateTime": "2026-09-06T18:34:44+08:00",
+    "VersionID": 956
   }
 ]
