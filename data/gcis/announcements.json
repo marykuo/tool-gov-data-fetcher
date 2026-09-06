@@ -1,6 +1,13 @@
 {
   "content": [
     {
+      "annCd": 141,
+      "annNo": "經授商字第11502407650號",
+      "pmgDate": "115.06.08",
+      "title": "經授商字第11502407650號公告本部「公司行號及有限合夥營業項目代碼表」增列「D101101特定電力供應業」營業項目。",
+      "annFile": true
+    },
+    {
       "annCd": 136,
       "annNo": "經商字第11568000000號",
       "pmgDate": "115.01.07",
@@ -109,7 +116,7 @@
       "annCd": 121,
       "annNo": "經商字第 11002414760 號",
       "pmgDate": "110.06.21",
-      "title": "經商字第11002414760號公告本部「公司行號及有限合夥營業項目代碼表」'/cod/history/1100621.html'名稱及定義內容。",
+      "title": "經商字第 11002414760 號公告本部「公司行號及有限合夥營業項目代碼表」增列「J101120營建混合物分類處理業」、「HZ07011外籍移工匯兌業」、修正「C802090清潔用品製造業」、「F107030清潔用品批發業」、「F207030清潔用品零售業」、「F113070電信器材批發業」、「F213060電信器材零售業」、「HZ06011電子支付業」、「F108011中藥批發業」等營業項目代碼。",
       "annFile": true
     },
     {
@@ -463,29 +470,10 @@
       "annFile": true
     }
   ],
-  "pageable": {
-    "pageNumber": 0,
-    "pageSize": 100,
-    "sort": {
-      "sorted": false,
-      "empty": true,
-      "unsorted": true
-    },
-    "offset": 0,
-    "paged": true,
-    "unpaged": false
-  },
-  "last": true,
-  "totalPages": 1,
-  "totalElements": 66,
-  "first": true,
-  "size": 100,
-  "number": 0,
-  "sort": {
-    "sorted": false,
-    "empty": true,
-    "unsorted": true
-  },
-  "numberOfElements": 66,
-  "empty": false
+  "page": {
+    "size": 100,
+    "number": 0,
+    "totalElements": 67,
+    "totalPages": 1
+  }
 }

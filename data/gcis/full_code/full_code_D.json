@@ -96,6 +96,22 @@
     "isStop": "F"
   },
   {
+    "pkCode": 1306,
+    "code": "D101101",
+    "codeName": "特定電力供應業",
+    "description": "指以執行需量反應措施、設置儲能設備或其他電力供應方式參與電力交易平台之非公用事業。",
+    "codeNameE": "Specified Electricity Supplier",
+    "classMapping": "3510 電力供應業",
+    "classMappingE": "3510 Electricity Supply",
+    "permission": "1",
+    "link": null,
+    "orgType": "限以「股份有限公司」型態經營",
+    "orgTypeE": "Limited to be operated in the form of a \"Company Limited by Shares\"",
+    "descriptionE": "Refers to any non-public utility that participates in the electricity trading platform by implementing demand response measures, installing energy storage systems, or using other electricity supply methods.",
+    "updateDate": null,
+    "isStop": "F"
+  },
+  {
     "pkCode": 355,
     "code": "D201011",
     "codeName": "公用天然氣事業",
