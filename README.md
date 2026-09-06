@@ -16,6 +16,8 @@ Python package for fetching and updating GOV data via API.
 
 ## Quick Start
 
+For MOTC TDX API access, set the client credentials in the `.env` file before running the fetcher.
+
 This project is managed using [uv](https://github.com/astral-sh/uv). Follow the commands below to get started:
 
 ```bash
