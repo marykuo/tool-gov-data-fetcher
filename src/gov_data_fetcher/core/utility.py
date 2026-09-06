@@ -3,8 +3,17 @@ import requests
 import json
 
 
-def fetch_api(url) -> dict:
-    response = requests.post(url)
+def fetch_api(
+    url: str,
+    method: str,
+    params: dict = None,
+    headers: dict = None,
+) -> dict:
+    if params is None:
+        params = {}
+    if headers is None:
+        headers = {}
+    response = requests.request(method, url, params=params, headers=headers)
     response.raise_for_status()  # Raise an error for bad status
     return response.json()
 

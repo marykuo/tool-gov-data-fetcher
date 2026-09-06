@@ -1,7 +1,6 @@
 from gov_data_fetcher.core.utility import fetch_api, save_json_to_file
 from pathlib import Path
 
-
 DATA_DIR = Path("data/gcis")
 GCIS_HOST = "https://gcis.nat.gov.tw"
 
@@ -11,7 +10,10 @@ def fetch_gcis_announcement_data(gcis_host: str = GCIS_HOST) -> None:
     訊息公告
     """
     print("\n=== Fetching GCIS Announcement Data ===")
-    response = fetch_api(f"{gcis_host}/elawCodAp/api/announcements/getPageNews?size=100")
+    response = fetch_api(
+        url=f"{gcis_host}/elawCodAp/api/announcements/getPageNews?size=100",
+        method="POST",
+    )
     print(f"Fetched {len(response['content'])} announcements")
 
     # save raw response
@@ -41,7 +43,10 @@ def fetch_gcis_cod_data(gcis_host: str = GCIS_HOST) -> None:
 
 def fetch_section_codes(gcis_host: str = GCIS_HOST) -> list[str]:
     print("\n=== Fetching Section Codes ===")
-    response = fetch_api(f"{gcis_host}/elawCodAp/api/codeSearch/getAllMainCode")
+    response = fetch_api(
+        url=f"{gcis_host}/elawCodAp/api/codeSearch/getAllMainCode",
+        method="POST",
+    )
 
     # save raw response
     save_json_to_file(response, DATA_DIR / "main_code" / "raw_main_code.json")
@@ -64,7 +69,8 @@ def fetch_child_codes(
     child_list_by_section = {code: None for code in section_code_list}
     for section_code in section_code_list:
         response = fetch_api(
-            f"{gcis_host}/elawCodAp/api/codeSearch/getAllChildCode?mainCode={section_code}"
+            url=f"{gcis_host}/elawCodAp/api/codeSearch/getAllChildCode?mainCode={section_code}",
+            method="POST",
         )
         # save raw response
         save_json_to_file(
@@ -144,7 +150,8 @@ def fetch_full_codes(
     for section_code in section_code_list:
         for group_code in group_list_by_section[section_code]:
             response = fetch_api(
-                f"{gcis_host}/elawCodAp/api/codeSearch/getAllFullCode?thiCode={group_code}"
+                url=f"{gcis_host}/elawCodAp/api/codeSearch/getAllFullCode?thiCode={group_code}",
+                method="POST",
             )
             for full_code in response:
                 full_codes_by_section[section_code].append(full_code)
